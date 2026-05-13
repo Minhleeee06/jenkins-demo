@@ -5,7 +5,7 @@ pipeline {
         stage('Stage 1: Build') {
             steps {
                 echo 'Stage 1 Build'
-                echo 'Task: Compile and package the source code into a deployable artifact.'
+                echo 'Tasks: Compile and package the source code into a deployable artifact.'
                 echo 'Tool: Maven'
             }
         }
